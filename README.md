@@ -14,7 +14,7 @@ This project implements user authentication using Next.js Auth. Users can Create
 
 - Next.js: A React framework for building server-rendered applications.
 - Next.js Auth: A library for handling authentication in Next.js applications.
-- [Database of your choice]: Store user information. (Specify the database used, e.g., MongoDB, PostgreSQL, etc.)
+- localstorage for db purpose.
 - [Other technologies]: List any additional technologies or libraries used.
 
 ## Setup
