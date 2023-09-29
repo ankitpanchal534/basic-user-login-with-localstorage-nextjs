@@ -86,8 +86,6 @@ npm run dev
 ## Credits
 
 - [Next.js](https://nextjs.org/)
-- [Next.js Auth](https://github.com/nextauthjs/next-auth)
-- [Other technologies or libraries used]
 
 ## License
 
