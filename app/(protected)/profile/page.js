@@ -1,9 +1,11 @@
 "use client";
+import { useLocalStorage } from "@uidotdev/usehooks";
 import Image from "next/image";
 import { useRouter } from "next/navigation";
 import React, { useEffect, useRef, useState } from "react";
 
 export default function page() {
+  const localStorage = useLocalStorage();
   const [selectedImage, setSelectedImage] = React.useState("");
   const [currentUser, setThisUser] = useState({});
 

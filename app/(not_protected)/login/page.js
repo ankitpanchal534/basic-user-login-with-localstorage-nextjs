@@ -1,10 +1,12 @@
 "use client";
+import { useLocalStorage } from "@uidotdev/usehooks";
 import Link from "next/link";
 import { useRouter } from "next/navigation";
 import React from "react";
 import Swal from "sweetalert2";
 
 export default function page() {
+  const localStorage = useLocalStorage();
   const router = useRouter();
   // state to manage username and password
   const [formDetails, setFormDetails] = React.useState({

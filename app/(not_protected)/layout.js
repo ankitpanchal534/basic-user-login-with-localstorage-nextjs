@@ -1,9 +1,11 @@
 // import { useRouter } from "next/router";
 "use client";
+import { useLocalStorage } from "@uidotdev/usehooks";
 import { redirect } from "next/navigation";
 import { useEffect, useState } from "react";
 
 export default function RootLayout({ children }) {
+  const localStorage = useLocalStorage();
   // getting  details of logged in user
   let [thisUser, setThisUser] = useState({});
 
